@@ -36,12 +36,13 @@ pipeline{
                         env.GIT_BRANCH = GIT_BRANCH
 
                     }
-                    stash "CloneCode"
+                    
                 }
             }
 		stage("Clone1"){
                 steps{
-checkout scm
+			checkout scm
+			stash "CloneCode"
                     
                     
                 }
