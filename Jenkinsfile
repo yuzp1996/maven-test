@@ -39,7 +39,13 @@ pipeline{
                     stash "CloneCode"
                 }
             }
-
+		stage("Clone1"){
+                steps{
+checkout scm
+                    
+                    
+                }
+            }
 
 
         stage("CodeScan"){
