@@ -4,8 +4,9 @@ pipeline {
   stages{
     stage("build"){
       steps{
+         sh './example/* ./'
+
         sh '/apache-maven-3.5.4/bin/mvn test'
-        sh './example/* ./'
       }
     }
   }
