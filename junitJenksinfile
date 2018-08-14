@@ -3,7 +3,8 @@ pipeline {
   
   stages{
     stage("build"){
-      steps{
+      steps
+      sh 'mv ./example/* ./'
         sh '/apache-maven-3.5.4/bin/mvn package'
       }
     }
