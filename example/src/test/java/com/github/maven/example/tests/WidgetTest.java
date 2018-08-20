@@ -5,7 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 import com.github.maven.example.Widget;
 
+import org.junit.Ignore;
 import org.junit.Test;
+
 
 /**
  * Unit tests of {@link Widget} class
