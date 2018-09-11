@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.2" sequence="0" timestamp="1536554201000" analysisTimestamp="1536571416472" release="">
+  <Project>
+    <Jar>/zpyu/example/target/classes/Calculator.class</Jar>
+    <Jar>/zpyu/example/target/classes/com/github/maven/example/Widget.class</Jar>
+    <AuxClasspathEntry>/zpyu/example/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/zpyu/example/.scannerwork/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/zpyu/example/.scannerwork/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/zpyu/example/.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 10 Sep 2018 04:36:41 +0000" total_classes="2" referenced_classes="11" total_bugs="0" total_size="19" num_packages="2" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="6.95" clock_seconds="5.25" peak_mbytes="239.46" alloc_mbytes="444.50" gc_seconds="0.07">
+    <FileStats path="Calculator.java" bugCount="0" size="8"/>
+    <FileStats path="com/github/maven/example/Widget.java" bugCount="0" size="11"/>
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="Calculator" sourceFile="Calculator.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.github.maven.example" total_bugs="0" total_types="1" total_size="11">
+      <ClassStats class="com.github.maven.example.Widget" sourceFile="Widget.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2593" invocations="307" avgMicrosecondsPerInvocation="8447" maxMicrosecondsPerInvocation="51473" standardDeviationMicrosecondsPerInvocation="7255"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="291" invocations="306" avgMicrosecondsPerInvocation="953" maxMicrosecondsPerInvocation="36669" standardDeviationMicrosecondsPerInvocation="3008"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

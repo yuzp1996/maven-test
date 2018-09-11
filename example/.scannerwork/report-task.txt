@@ -1,0 +1,6 @@
+projectKey=zpyutest
+serverUrl=http://123.206.63.18:18002
+serverVersion=6.7.4.38452
+dashboardUrl=http://123.206.63.18:18002/dashboard/index/zpyutest
+ceTaskId=AWXCyw2r0cbGcfesVUBm
+ceTaskUrl=http://123.206.63.18:18002/api/ce/task?id=AWXCyw2r0cbGcfesVUBm
