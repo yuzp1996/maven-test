@@ -1,2 +1,2 @@
 FROM nginx
-COPY target target
+COPY example/target target
